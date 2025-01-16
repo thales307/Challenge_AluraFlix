@@ -1,0 +1,43 @@
+.container {
+  border-radius: 5px 5px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  width: 412px;
+}
+
+.capa {
+  height: 250px;
+  margin-bottom: 0;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.icones {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.icones img {
+  cursor: pointer;
+  height: 20px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+  width: 80px;
+}
+
+.link {
+  color: inherit;
+  display: block;
+  margin-bottom: -75px;
+  margin-top: -8px;
+  text-decoration: none;
+}

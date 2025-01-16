@@ -1,0 +1,25 @@
+:root {
+  --branco: #ffffff;
+  --cinza: #f5f5f5;
+  --fonte: "Source Sans Pro", "Roboto";
+  --preto: #262626;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--preto);
+  color: var(--cinza);
+  font-family: var(--fonte);
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+}

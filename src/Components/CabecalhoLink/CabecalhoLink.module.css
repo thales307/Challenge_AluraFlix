@@ -1,0 +1,20 @@
+.link {
+  border-radius: 15px;
+  border: 1.5px solid var(--branco, #ffffff);
+  color: var(--branco);
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  padding: 0.8em 3em;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+  background-color: #000000e5;
+  border: 1.5px solid #2271d1;
+  box-shadow: 0 0 8px 2px #2271d1;
+  color: #2271d1;
+  opacity: 0.8;
+}
